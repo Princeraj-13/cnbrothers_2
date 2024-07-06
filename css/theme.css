@@ -260,7 +260,7 @@
 .mainmenu ul.sub_menu li a {
   font-size: 14px;
   font-weight: 500;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   display: block;
   width: 100%;
   color: #fff;
@@ -856,7 +856,7 @@
 }
 .icon_box_01 {
   position: relative;
-  background: #fff;
+  background: #F0FBFC;
   padding: 60px 25px 54px;
   transition: all ease 300ms;
   -moz-transition: all ease 300ms;
@@ -865,7 +865,7 @@
   -o-transition: all ease 300ms;
 }
 .icon_box_01.box_shadow {
-  box-shadow: 0 8px 15px rgba(202, 211, 255, 0.2);
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
 }
 .icon_box_01:hover {
   background: #ff5e14;
@@ -873,7 +873,7 @@
 }
 .icon_box_01 i.bigger {
   font-size: 200px;
-  color: #fff9f9;
+  color: #F0FBFC;
   position: absolute;
   width: 100%;
   text-align: center;
@@ -2094,9 +2094,9 @@
   letter-spacing: 0;
   color: #959ba9;
   display: inline-block;
-  line-height: 0.8;
+  line-height: 2.8;
   position: relative;
-  padding-bottom: 11px;
+  padding-bottom: 15px;
 }
 .singleService .serviceDetails > a:hover {
   color: #ff5e14;
@@ -2107,7 +2107,7 @@
   background: #ff5e14;
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 17px;
   content: '';
   transition: all ease 300ms;
   -moz-transition: all ease 300ms;
@@ -3252,7 +3252,7 @@
   background: #ff5e14;
 }
 .sidebar_1 .widget ul li a {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 0.8;
   color: #6c768e;
   display: inline-block;

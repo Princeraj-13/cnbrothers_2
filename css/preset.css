@@ -8,7 +8,7 @@ body {
   font-family: rubik, sans-serif;
   font-size: 14px;
   line-height: 26px;
-  color: #959ba9;
+  color: #000;
   font-weight: 400;
   letter-spacing: 0;
 }
@@ -217,16 +217,16 @@ button:focus {
 }
 .sub_title {
   font-family: rubik, sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   color: #c3c8d4;
   letter-spacing: 0;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 500;
-  margin: 0 0 20px;
+  margin: 0 0 40px;
   line-height: 0.8;
 }
 .sub_title.gray_sub_title {
-  color: #959ba9;
+  color: #000;
 }
 .sub_title.dark_sub_title {
   color: #ff5e14;
@@ -237,8 +237,8 @@ button:focus {
 .sec_title {
   font-size: 80px;
   line-height: 90px;
-  letter-spacing: -2.4px;
-  margin: 0 0 80px;
+  letter-spacing: -0.4px;
+  margin: 0 0 30px;
   position: relative;
 }
 .sec_title.dark_sec_title {
@@ -265,9 +265,9 @@ button:focus {
   position: relative;
 }
 .sec_title.with_bar {
-  padding-bottom: 29px;
+  /* padding-bottom: 29px; */
 }
-.sec_title.with_bar:after {
+/* .sec_title.with_bar:after {
   width: 60px;
   height: 2px;
   background: #ff5e14;
@@ -277,7 +277,7 @@ button:focus {
   right: 0;
   bottom: 0;
   margin: 0 auto;
-}
+} */
 .sec_title.dark_sec_title.with_bar:after {
   background: #203259;
 }
