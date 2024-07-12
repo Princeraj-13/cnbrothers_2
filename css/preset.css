@@ -27,7 +27,7 @@ h6 {
   font-family: barlow condensed, sans-serif;
 }
 a {
-  color: #ff5e14;
+  color: #0FCF39;
   text-decoration: none;
   transition: all ease 300ms;
   -moz-transition: all ease 300ms;
@@ -57,7 +57,7 @@ a:focus {
   margin-bottom: 6px;
 }
 .ind_btn:hover {
-  color: #ff5e14;
+  color: #0FCF39;
 }
 .ind_btn.ib_dark:hover {
   color: #fff;
@@ -75,7 +75,7 @@ a:focus {
 .ind_btn:before {
   width: 100%;
   height: 100%;
-  background: #ff5e14;
+  background: #0FCF39;
   content: '';
   position: absolute;
   left: 0;
@@ -127,21 +127,33 @@ a:focus {
   z-index: 3;
 }
 .ind_btn.ib_dark:hover:after {
-  background: #ff5e14;
+  background: #0FCF39;
 }
 .ind_btn_2 {
   height: 60px;
-  background: #ff5e14;
+  /* background: #0FCF39; */
+  background: linear-gradient(90deg, #00FF00, #00FFFF);
   min-width: 170px;
   display: inline-block;
   font-size: 14px;
   letter-spacing: 0;
   font-weight: 500;
   text-transform: uppercase;
-  color: #fff;
+  color: #000;
   text-align: center;
   line-height: 60px;
   position: relative;
+  animation-name: backgroundColorPalette;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes backgroundColorPalette {
+  0% { background: linear-gradient(90deg, #14AB35, #00FFFF); }
+  25% { background: linear-gradient(90deg, #00FFFF, #00FF00); }
+  50% { background: linear-gradient(90deg, #00FF00, #00FFFF); }
+  75% { background: linear-gradient(90deg, #00FFFF, #14AB35); }
+  100% { background: linear-gradient(90deg, #00FF00, #00FFFF); }
 }
 .ind_btn_2 span {
   position: relative;
@@ -157,6 +169,7 @@ a:focus {
   right: 0;
   bottom: 0;
   margin: auto;
+  border-radius: 40px;
   opacity: 0;
   visibility: hidden;
   background: #06163a;
@@ -229,7 +242,7 @@ button:focus {
   color: #000;
 }
 .sub_title.dark_sub_title {
-  color: #ff5e14;
+  color: #0FCF39;
 }
 .sub_title.light_sub_title {
   color: #fff;
@@ -270,7 +283,7 @@ button:focus {
 /* .sec_title.with_bar:after {
   width: 60px;
   height: 2px;
-  background: #ff5e14;
+  background: #0FCF39;
   content: '';
   position: absolute;
   left: 0;
@@ -292,7 +305,7 @@ button:focus {
 .ind_lead {
   font-size: 18px;
   line-height: 30px;
-  color: #ff5e14;
+  color: #0FCF39;
   margin: 0;
 }
 .bgDiv {
@@ -357,7 +370,7 @@ button:focus {
   color: inherit;
 }
 .breadcrumbs a:hover {
-  color: #ff5e14;
+  color: #0FCF39;
 }
 .breadcrumbs span {
   color: #fff;
