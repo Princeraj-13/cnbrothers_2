@@ -869,7 +869,8 @@
 }
 .icon_box_01:hover {
   background: #0FCF39;
-  box-shadow: 0 16px 32px rgba(255, 94, 20, 0.4);
+  box-shadow: 0 16px 32px rgba(0, 255, 0, 0.4);
+
 }
 .icon_box_01 i.bigger {
   font-size: 200px;
